@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+section {
+    padding: 50px 0;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    list-style-type: none;
+}
+.menu-item {
+    color: brown;
+    cursor: pointer;
+}
+.row {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(33.3% - 20px);
+    padding: 20px;
+}
+.card-img {
+    width: 100%;
+}
+
